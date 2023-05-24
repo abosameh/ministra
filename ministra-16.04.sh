@@ -16,7 +16,7 @@ echo -e "######## \e[32mINSTALLING BASE PACKAGES\e[39m ########"
 echo -e ""
 sudo apt-get install -y pwgen unzip apache2 php7.0-mcrypt memcached php php-mysql php-pear nodejs libapache2-mod-php php-curl php-imagick php-sqlite3 -qq > /dev/null
 sudo pear channel-discover pear.phing.info
-wget http://files.scripting.online/ministra/phing-2.16.1.tgz
+wget https://github.com/abosameh/ministra/raw/main/phing-2.16.1.tgz
 sudo pear install phing-2.16.1.tgz
 echo -e ""
 
